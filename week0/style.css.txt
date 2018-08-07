@@ -1,0 +1,107 @@
+#home-page{
+  background:rgb(64,59,51);
+ width: 100%;
+ 
+  padding-top:100px;
+  padding-bottom:100px;   
+}
+
+#home-picture{
+    z-index=1;
+width: 100%;
+
+}
+
+#text{
+  z-index=3;
+position: absolute;
+text-align:center;
+  padding:3% 20% ;
+  color:white;
+  text-shadow: 5px 2px black;
+  font-size:100px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.home-buttons{
+   border-radius: 40%;
+  border-color:black;
+    text-align: center; 
+    text-weigth:Bold;
+    font-size:30px;
+  text-decoration:underline;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+   margin-top:57.5%;
+}
+.general {
+  position: absolute;
+   background-color:rgba(237,235,230,0.6);
+    padding:37px 5px;
+  margin-left:12%;
+  width:15%;
+   
+  
+}
+.fame{
+ position: absolute;
+   background-color:rgba(148,199,182,0.6);
+   padding:37px 5px;
+  margin-left:41%;
+   width:15%;
+}
+
+.ancient{
+ position: absolute;
+   background-color:rgba(211,100,59,0.6);
+   padding:37px 5px;
+  margin-left:72%;
+  width:15%;
+}
+
+
+ .more-links a:visited, .more-links a:link, .more-links a:active, .more-links a:hover {
+top:50px;
+position:relative; 
+   padding-left:10px;
+
+ }
+
+  #more{
+    left:57%;
+     color: rgba(0,191,255,0.2);
+ 
+ }
+
+ #links{
+  
+    left:59%;
+     color: rgba(0,191,255,0.4);
+ }
+
+ #about{
+    left:61%;
+     color: rgba(0,191,255,0.6);
+
+ }
+  #aleppo{
+    left:63%;
+   color:rgba(0,191,255,0.8);
+
+ }
+
+#maps{
+
+    left:20%;
+}
+#twitter{
+    left:7%;
+}
+#facebook{
+ 
+    left:11%;
+}
+#youtube{
+    left:15%;
+  
+}
+ 

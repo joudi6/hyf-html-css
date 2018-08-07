@@ -1,0 +1,49 @@
+<!--google font code-->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700i" rel="stylesheet">
+<!-- home page-->
+<div id="home-page">
+  
+  <span id="text">My Beloved Aleppo</span><!-- title-->
+   <a href="https://codepen.io/jm2/full/KBzMoY/" target="blank">
+  <button type="button" class="home-buttons general" >General</button></a> 
+   <a href="https://codepen.io/jm2/full/xJZdRe/" target="blank">
+     <button type="button" class="home-buttons fame" > Fame Hall  </button></a>
+   <a href="https://codepen.io/jm2/full/WKrjRZ/" target="blank">
+ <button type="button" class="home-buttons ancient" >  Ancient sites  </button></a>
+  <!-- home picture-->
+  <img id="home-picture" src="https://pbs.twimg.com/media/DCn2lBwXoAEVhel.jpg" alt="aleppo castel side">
+  
+  <!-- maps link-->
+ <div class="more-links">
+   <a href="https://goo.gl/maps/UM1b6gZGQDB2" target="blank">
+ <img id="maps" src="https://vignette.wikia.nocookie.net/la-casa-de-papel/images/b/b5/Coordonn%C3%A9es_icon.png/revision/latest?cb=20180521162626&path-prefix=fr" alt="maps link" width=30px></a>
+  <!-- twitter link-->
+<a href="https://twitter.com/hashtag/aleppo" target="blank"> 
+  <img id="twitter" src="http://www.transparentpng.com/thumb/twitter/bird-twitter-socialmedia-icons-png-5.png" alt="twitter link" width=28px> 
+  </a>
+  <!-- facebook link-->
+   <a href="https://www.facebook.com/aleppocitypictres/?ref=br_rs" target="blank">
+ <img id="facebook" src="http://realtvfantasy.com/assets/images/icon-facebook-light.png " alt="facebook link" width=35px> </a>
+  
+   <!-- youtube link-->
+  <a href="https://www.youtube.com/watch?v=RT0nVNgA6e0" target="blank">
+  <img id="youtube" src="https://www.telefonica.com/telefonica-theme/images/custom/social/youtube_followus.png" alt="youtube link" width=35px>
+  </a>
+ 
+
+<!-- more difrent links-->
+
+  <a href="https://illinoistechsyrianstudentfutures.blog/tag/aleppo/" id="more" target="blank" > more
+  </a>
+   <a href="https://www.wmf.org/project/throne-hall-forecourt-citadel-aleppo" id="links" target="blank"> |&nbsp; links
+  </a>
+  
+   <a href="http://sana.sy/en/?p=77788" id="about" target="blank"> |&nbsp;about 
+  </a>
+ 
+    <a href="https://www.independent.co.uk/news/world/middle-east/aleppo-chilling-photos-show-how-the-ancient-city-has-changed-since-the-syrian-conflict-started-a7362796.html" id="aleppo" target="blank" > |&nbsp;aleppo 
+  </a>
+  
+
+</div> 
+ </div>
