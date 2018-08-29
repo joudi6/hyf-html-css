@@ -76,6 +76,7 @@ img{
     flex-wrap: wrap;
     box-sizing: border-box;
     margin-top: 0.5rem;
+    justify-content: center; 
     
 }
 /* mobile screen */
