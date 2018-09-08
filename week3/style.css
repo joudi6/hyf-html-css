@@ -1,64 +1,217 @@
 *{
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
-}
-section{
-    text-shadow: 0 2px 2px #afafaf;
-    clear: both;
-    overflow: hidden;
-    background-color:rgb(24, 24, 24);
-    color: aliceblue;
-    }
-h1{
-    text-align: center;
-    font-weight: bold;
-    font-size: 240px;
-    color: rgb(194, 9, 9);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-  }
-section h2{ 
-text-align: center;
-color: rgba(0, 0, 0, 0.993);
-background:  rgb(184, 182, 182);
-padding: 0.625rem;
-/* overflow: hidden;  */
-font-family:cursive;
-margin-top: 0rem;
-border:rgb(90, 90, 90) 2px solid;
-}
-h3{
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
+    font-family: "RO Sans", Calibri, sans-serif;
 }
 
-    p{
-    font-family:  initial;
-    text-align: center;
+
+#logo{
+margin-left: 45%;
+margin-bottom: 1.2%;
+width: 15%;
+
 }
 li{
-    text-align: center;
+    list-style-type: none;
 }
-img{
-    width: 25rem;
-    margin: 0.5rem;
+nav{
+    background-color:rgb(1, 104, 155);
+    width: 100%;
+    padding:1.35% 2% 1.35% 2%;
+    font-size: 20px;
 }
-/* .grid-item{clear:right;}  */
-#grid-floats .grid-item:nth-child(n+2){
-    color: black;
-    float: left;
-    overflow: hidden;
-    padding: 0.625rem;
-    width: 50%;  
-    height: 35rem;
-    margin: 0.625rem; 
-    border: 0.125rem solid rgb(0, 0, 0);
-    font-family:cursive;
-    overflow: hidden; 
-    box-sizing: border-box;
+nav a{
+    color: antiquewhite;
+    text-decoration: unset;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav .nav-bar1{
+   margin-left: 31%;
+}
+nav .home-button{
+    margin-left: 5%;
+    font-size: 28px;
+}
+nav .nav-bar1 a{
+    padding-left: 2%;
+    
+}
+.main-section{
+    padding: 2% 2% 2% 2%;
+    height: 100%;
+}
+.section1{
+    background-image: url(./images/background-img.jpg);
+    background-repeat:no-repeat;
+    height: 50%;
+}
+article{
     background-color: white;
-     }
-     
-section:last-of-type{ 
-clear: left;
+    width: 30%;
+    overflow: auto;
+    padding:  2% 2% 2% 3%;
+    font-weight: bold; 
+}
 
+article li a{
+    color: rgb(1, 104, 155);
+    font-size: 19px;
+    text-decoration:none;
+    
+}
+article li{
+    margin: 0 0 8px 0;
+}
+.main-section { 
+    position: relative;
+  }
+.search-container{
+    display: flex;
+    position:absolute;
+    top: 40px;
+    right: 20px;
+}
+input{
+    flex: 10;
+    padding: 15px; 
+}
+.search-button{
+    width: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size:16px;
+}
+
+.section2{ 
+    height: 50%;
+    background-color: #f3f3f3;
+    display:flex;
+    padding: 2% 2% 2% 5% ;
+      
+}
+.section2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+    justify-content: space-around;
+    padding: 2% 2% 5% 2%;
+}
+
+.section2 li{
+    overflow: auto; 
+    width: 22%;
+    margin:0.2% 0.2% 0.2% 0.2% ;
+    height: 40%;
+}
+.section2 li a{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.2em;
+   
+}
+li a{
+    color: #01689b;
+    text-decoration: unset;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.section2 li p{
+font-size:17px;
+}
+.section3{
+    display: flex;
+    height: 100%;
+    padding: 1% 1% 1% 7% ;
+    border-bottom:  rgb(124, 122, 122) 1px double;
+}
+.section3 ul{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 35px;
+    justify-content: space-around;
+    
+   } 
+   
+.section3 li{
+    width: 55%;
+    height: 40%;
+    font-size: 17px;
+   
+}
+.section3 img{
+    width: 90%;
+}
+.section3 li p{
+    font-size:17px;
+    width: 90%;     
+    }
+
+.section4{
+    display: flex;
+    height: 100%;
+    padding: 1% 1% 1% 5% ;
+
+}
+.section4 ul{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+.section4 li{
+    width: 30%;
+    height: 40%;
+    font-size: 17px;
+   padding: 1% 1% 1% 5% ;
+  
+}
+.nieuws{
+    padding: 1% 1% 1% 7% ;
+
+}
+.data{
+    font-weight: bold;
+
+    }
+.meer-nieuws a{
+    padding: 1% 1% 1% 5% ;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(133, 133, 133);
+
+}
+footer a {
+    color: white;
+    text-decoration: unset;
+   } 
+footer a:hover{
+    text-decoration: underline;
+}
+.aside1{
+    border: solid  black 2px ;
+    width: 150px;
+    height: 150px;
+    padding: 9px 9px 9px 9px;
+    margin: 1% 1% 1% 7% ;
+}
+.aside2{
+    border: solid  black 2px ;
+    width: 150px;
+    height: 150px;
+    padding: 9px 9px 9px 9px;
+    margin: 1% 1% 1% 7% ;
+}
+footer{
+    display: flex;
+
+}
+.footer-list{
+     justify-content: flex-end;
+     flex-wrap: wrap;
+     
 }
